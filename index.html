@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Agora</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<script
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      data-auto-a11y="true"
+    ></script>
+</head>
+<body>
+	<nav id="inicio">
+		<a href="#quienes"> Inicio </a>
+		<a href="#servicios"> Servicios</a>
+		<a href="#obras"> Obras </a>
+		<a href="#contacto"> Contacto</a>
+	</nav>
+	<header>
+		<div>
+			<h1>Agora</h1>
+			<h2>Estudio de arquitectura</h2>
+		</div>
+	</header>
+	<section id="servicios">
+		
+		<a href="#inicio"><h1 class="titulo">Servicios</h1></a>
+	<div id="contenedor-servicios">
+		
+	   <div id=izquierda>
+
+		<h3>1.Diseño de interiores</h3>
+		<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.  </p>
+		
+		<h3>2.Reformas </h3>
+		<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.  </p>
+
+	   </div><!--finizquierda-->
+
+	   <div id="derecha">
+		    <h3>3.Demoliciones</h3>
+		    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		    consequat.  </p>
+	   </div><!--finderecha--> 
+
+	</div>
+		
+	</section>
+	<section id="obras">
+		
+			<a href="#inicio"><h2 class="titulo">Nuestros clientes opinan</h2></a>
+
+		<div id="contenedor-obras"> 
+			<article class="obra">
+			<img src="images/casa1.jpeg">
+			<p>Sevilla</p>
+			</article>
+		
+			<article class="obra">
+			<img src="images/casa2.jpg">
+			<p>Madrid</p>
+			</article>
+		 
+			<article class="obra">
+			<img src="images/casa3.jpg">
+			<p>Zaragoza</p>
+			</article>
+		
+			<article class="obra">
+			<img src="images/casa5.jpeg">
+			<p>Barcelona</p>
+			</article>
+		
+			<article class="obra">
+			<img src="images/casa6.jpg">
+			<p>Toledo</p>
+			</article>
+		
+			<article class="obra">
+			<img src="images/casa7.jpg">
+			<p>Bilbao</p>
+			</article>
+		</div>
+		
+	</section>
+
+	<section id="contacto">
+		<a href="#inicio"><h3 id="titulo">Contacte con nosotros</h3></a>
+        <form action="procesacontacto.php">
+        	<p><label>Nombre:</label>  <input type="text" name="nombre" id="nombre" required=""></p>
+            <p><label>Apellidos:</label>  <input type="text" name="apellidos" required=""></p>
+            <p><label>Genero:</label>
+            	<input type="radio" name="genero" value="H">Hombre
+            	<input type="radio" name="genero" value="M" >Mujer</p>
+            <p><label>Edad:  </label><input type="number" name="edad" min="15" max="40" value="16" required=""></p>
+            <p><label>Cursado:</label>
+            	<select name="curso">
+            		<option value="fp">Fp basica</option>
+            		<option value="md">Grado medio</option>
+            		<option value="eso">ESO</option>
+            		<option value="bach" selected>Bachiller</option>
+            		<option value="sp">Grado superior</option>
+            	</select></p>
+            <p><label>E-mail: </label><input type="email" name="email" placeholder="Escriba su email" required=""></p>
+            <p><input type="submit" name="Enviar datos">
+            <input type="reset" name="Reiniciar"></p>
+
+        </form>
+	</section>
+
+    
+	<footer id="contactanos">
+
+		<div id="contacta">
+			<a href="#contacto"><p>Contacta con nosotros. Trabajamos los 365 dias del año</p></a>
+		</div>
+
+		<div id="enlaces">
+			<h3>Enlaces</h3>
+			<a href="https://es-es.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+			<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+			<a href="https://twitter.com/?lang=es"><i class="fab fa-twitter"></i></a>
+		</div>
+
+		<div id="estamos en ">
+			<h3>Estamos en</h3>
+        	<p>Avda. Calle Mayor</p>
+        	<p>13600 Alcazar de San Juan</p>
+        </div>
+
+		<div id="email">
+			<h3>Email</h3>
+			<a href="#nombre"><p>info@agora.com</p></a>
+		</div>
+		
+		
+		
+	</footer>
+	
+
+</body>
+</html>

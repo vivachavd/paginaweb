@@ -1,0 +1,97 @@
+*{font-family: arial;}
+.titulo {color: brown;text-align: center;}
+nav a {text-decoration: none;color: whitesmoke;
+    text-shadow: 2px 2px 2px firebrick;}
+
+nav {background-color: darkblue;padding: 20px;
+    display: flex;
+    justify-content: space-around;}
+
+nav a:hover {font-weight: bold;color: yellow;}
+
+header {height: 200px;background-image: url(images/fondo.jpeg);
+background-position: center;background-size: 100% 100%;
+display: flex;justify-content: center;align-items: center;}
+
+header h1{color: yellow;text-shadow: 3px 3px 3px black;
+	text-align: center;font-size: 50px;}
+
+header h2{color: black;text-shadow: 3px 3px 3px black;
+	font-style: italic;text-align: center;font-size: 40px;}
+
+body h2,h1{text-shadow: 2px 2px 2px yellow;}
+
+  
+  .titulo {color: darkblue;
+        font-family: arial,sans-serif;
+        font-weight: bold;
+        text-align: center;}
+
+#contenedor-servicios {display: flex;}
+#contenedor-servicios p {font-family: coursive;}
+ #servicios h1{background-color: darkcyan;margin: 0;
+    height: 55px;}
+
+
+#contenedor-obras {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;}
+
+.obra{width: 33%;
+    text-align: center;color: black;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 50px;}
+
+
+.obra img {width: 40%;}
+
+#obras{
+background-color: darkcyan;
+height: 570px;
+margin-top: 10px;
+margin-bottom: 20px;}
+
+#contacto h3 {color: darkblue;
+        font-family: arial,sans-serif;
+        font-weight: bold;
+        text-align: center;
+        text-shadow: 2px 2px 2px yellow;
+        background-color: lightblue;
+        height: 55px;}
+
+#contacto {padding-left:50px ;
+padding-right: 50px;padding-bottom: 20px;
+margin-top: 0px;}
+
+#contacto form{background-color: lightblue;
+border-radius: 5px;padding: 20px;}
+
+#contacto label {font-weight: bold;
+font-size: 30px;font-size: 20px;
+font-style: italic;color: darkblue;}
+
+footer {background-color: gray;color: white;
+display: flex;justify-content: center;
+flex-wrap: wrap;}
+
+footer div {width: 33%;
+text-align: center;text-decoration: none;}
+
+footer div a {text-decoration: none;color: white;}
+#enlaces a {font-size: 20px;}
+
+footer a:hover{color: darkblue;}
+
+#contacta {width: 100%;border: 2px solid black;}
+
+body a {text-decoration: none;}
+
+
+
+
+
+
+
+
